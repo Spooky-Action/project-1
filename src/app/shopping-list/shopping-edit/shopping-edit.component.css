@@ -1,0 +1,7 @@
+button {
+  margin: 5px;
+}
+
+button:first-of-type {
+  margin-left: 0;
+}
