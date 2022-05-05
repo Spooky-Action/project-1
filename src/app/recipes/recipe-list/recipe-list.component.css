@@ -1,0 +1,17 @@
+.recipe-card {
+  margin: 10px 0;
+  border-radius: 5px;
+  transition: background-color .3s;
+}
+
+.recipe-card:hover {
+  background-color:rgba(161,188,230,0.2);
+}
+
+.recipe-card p {
+  display: -webkit-box;
+  max-width: 280px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

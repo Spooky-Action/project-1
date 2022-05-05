@@ -8,7 +8,7 @@
     <div class="col-xs-12">
       <a
       href=""
-      class="list-group-item clearfix"
+      class="list-group-item clearfix recipe-card"
       *ngFor="let recipe of recipes">
         <div class="pull-left">
           <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
@@ -19,7 +19,7 @@
           [src]="recipe.imagePath"
           alt="{{ recipe.name }}"
           class="img-responsive"
-          style="max-height: 50px;">
+          style="height: 80px; width: 110px; object-fit: contain">
         </span>
       </a>
       <app-recipe-item></app-recipe-item>
